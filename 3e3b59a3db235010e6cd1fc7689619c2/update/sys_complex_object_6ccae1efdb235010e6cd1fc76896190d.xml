@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa8cae1ef04235010eee772b15236ce0d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3e3b59a3db235010e6cd1fc7689619c2</scope_name>
+        <serialized_content>{"FlowDesigner:FDa8cae1ef04235010eee772b15236ce0d":{"Description":"String","Description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Description\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"12676e44-ec36-450a-8d9a-19099cd3a5bd\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"389d4e9b-53b0-489b-b4d8-2d8c2a75dacc\"}"},"Link":"String","Link.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"Link\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"8bfda587-a051-4e15-8317-72516822985d\"}"}},"FlowDesigner:FDa8cae1ef04235010eee772b15236ce0d.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"f06eb481-bd69-456e-b9b6-9ce2e0398513\",\"default_value\":\"\",\"label\":\"Item\",\"mandatory\":\"false\",\"uiUniqueId\":\"7d9e6b40-c07f-4a1f-9d78-f35e8976261b\",\"uiTypeLabel\":\"\",\"co_type_name\":\"FDa8cae1ef04235010eee772b15236ce0d\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"5ff7e38e-173b-4374-a5b9-f1cce43964cb\",\"sourceType\":\"step\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-05 11:34:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6ccae1efdb235010e6cd1fc76896190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDa8cae1ef04235010eee772b15236ce0d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name>sys_complex_object_6ccae1efdb235010e6cd1fc76896190d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-05 11:34:32</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

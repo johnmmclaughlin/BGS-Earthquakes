@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="published_date" label="Published" language="en" table="x_118939_bgs_earth_earthquakedata">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>published_date</element>
+            <help/>
+            <hint/>
+            <label>Published</label>
+            <language>en</language>
+            <name>x_118939_bgs_earth_earthquakedata</name>
+            <plural>Published</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-05 10:31:54</sys_created_on>
+            <sys_id>3e6c1de3db235010e6cd1fc76896195a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Published</sys_name>
+            <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+            <sys_update_name>sys_documentation_x_118939_bgs_earth_earthquakedata_published_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-08 12:45:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

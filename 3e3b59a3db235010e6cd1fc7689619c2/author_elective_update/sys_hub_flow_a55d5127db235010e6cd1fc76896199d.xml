@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation>This subflow updates the BGS Earthquake Data</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Uses a REST action to contact the BGS website and retrieves the latest data relating to recent British Earthquakes.</description>
+        <internal_name>bgs_earthquake_data_collection</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>BGS Earthquake Data Collection</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-05 10:35:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a55d5127db235010e6cd1fc76896199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BGS Earthquake Data Collection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name>sys_hub_flow_a55d5127db235010e6cd1fc76896199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-05 10:35:54</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=a55d5127db235010e6cd1fc76896199d"/>
+    <sys_variable_value action="DELETE" query="document_key=a55d5127db235010e6cd1fc76896199d"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=a55d5127db235010e6cd1fc76896199d^sys_idNOT IN655d5127db235010e6cd1fc76896199f"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>a55d5127db235010e6cd1fc76896199d</id>
+        <name>BGS Earthquake Data Collection</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-05 10:35:54</sys_created_on>
+        <sys_id>655d5127db235010e6cd1fc76896199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-05 10:35:54</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</application>
+        <file_path/>
+        <instance_id>ceb93fbcdb86b3848aea21c4059619e5</instance_id>
+        <instance_name>dev86943</instance_name>
+        <name>sys_hub_flow_a55d5127db235010e6cd1fc76896199d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation>This subflow updates the BGS Earthquake Data</annotation><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>Uses a REST action to contact the BGS website and retrieves the latest data relating to recent British Earthquakes.</description><internal_name>bgs_earthquake_data_collection</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>BGS Earthquake Data Collection</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-05 10:35:54</sys_created_on><sys_domain>global</sys_domain><sys_id>a55d5127db235010e6cd1fc76896199d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BGS Earthquake Data Collection</sys_name><sys_overrides/><sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package><sys_policy/><sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope><sys_update_name>sys_hub_flow_a55d5127db235010e6cd1fc76896199d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-05 10:35:54</sys_updated_on><type>subflow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=a55d5127db235010e6cd1fc76896199d"/><sys_variable_value action="delete_multiple" query="document_key=a55d5127db235010e6cd1fc76896199d"/><sys_flow_cat_variable_model action="delete_multiple" query="id=a55d5127db235010e6cd1fc76896199d^sys_idNOT IN655d5127db235010e6cd1fc76896199f"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>a55d5127db235010e6cd1fc76896199d</id><name>BGS Earthquake Data Collection</name><sys_class_name>sys_flow_cat_variable_model</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-05 10:35:54</sys_created_on><sys_id>655d5127db235010e6cd1fc76896199f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope><sys_update_name/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-05 10:35:54</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-683897972</payload_hash>
+        <record_name>BGS Earthquake Data Collection</record_name>
+        <reverted_from/>
+        <source>fe3b59a3db235010e6cd1fc7689619c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-05 10:35:54</sys_created_on>
+        <sys_id>a15d5127db235010e6cd1fc7689619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174f85502980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-05 10:35:54</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>e95d5127ca235010682cfdee893ed7a3</update_guid>
+        <update_guid_history>e95d5127ca235010682cfdee893ed7a3:-683897972</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-05 10:45:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>90339335f7fd4f1c9931b58634ea0579</sys_id>
+        <sys_metadata>a55d5127db235010e6cd1fc76896199d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BGS Earthquake Data Collection</sys_name>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_scope_delete display_value="">24a9f9afde824a20a540504cec389900</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_a55d5127db235010e6cd1fc76896199d</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_a55d5127db235010e6cd1fc76896199d">a15d5127db235010e6cd1fc7689619a4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-05 10:45:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

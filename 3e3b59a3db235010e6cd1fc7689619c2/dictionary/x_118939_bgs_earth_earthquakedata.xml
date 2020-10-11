@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="EarthquakeData" max_length="40" name="x_118939_bgs_earth_earthquakedata" sizeclass="47" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Category" max_length="40" name="category" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="150" name="description" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Link" max_length="1024" name="link" type="url"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Published" max_length="40" name="published_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="title" type="string"/>
+    </element>
+</database>

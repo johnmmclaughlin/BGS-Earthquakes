@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa932a52b5b2350108ed228cab5caa0df</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3e3b59a3db235010e6cd1fc7689619c2</scope_name>
+        <serialized_content>{"FlowDesigner:FDa932a52b5b2350108ed228cab5caa0df":{},"FlowDesigner:FDa932a52b5b2350108ed228cab5caa0df.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":null,\"label\":\"variable\",\"mandatory\":\"false\",\"uiUniqueId\":\"c85b9242-925b-48e4-a31a-b99cf8b117c0\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa932a52b5b2350108ed228cab5caa0df\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-05 10:57:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6d32a52bdb235010e6cd1fc7689619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDa932a52b5b2350108ed228cab5caa0df</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name>sys_complex_object_6d32a52bdb235010e6cd1fc7689619df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-05 10:57:12</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,2073 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch0-hotfix1-07-07-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>bgs_earthquake_data_extraction</internal_name>
+        <label_cache>[{"name":"22a16997-5559-4d29-8fa6-ee8fd7ae6a24.rss.channel.lastBuildDate","label":"1➛rss➛channel➛lastBuildDate","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.pubDate","label":"2➛item➛pubDate","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.link","label":"2➛item➛link","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.lat","label":"2➛item➛lat","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.long","label":"2➛item➛long","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.description","label":"2➛item➛description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.title","label":"2➛item➛title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"9fa713bf-3bb7-4a62-935e-2fca3edb843a.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9fa713bf-3bb7-4a62-935e-2fca3edb843a.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9fa713bf-3bb7-4a62-935e-2fca3edb843a.table_name","label":"3➛EarthquakeData Table","reference":"x_118939_bgs_earth_earthquakedata","reference_display":"EarthquakeData","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9fa713bf-3bb7-4a62-935e-2fca3edb843a.record","label":"3➛EarthquakeData Record","reference":"x_118939_bgs_earth_earthquakedata","reference_display":"EarthquakeData","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item","label":"2➛item","reference_display":"item","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"22a16997-5559-4d29-8fa6-ee8fd7ae6a24.rss.channel.array_of_item","label":"1➛rss➛channel➛array_of_item","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"22a16997-5559-4d29-8fa6-ee8fd7ae6a24.rss","label":"1➛rss","reference_display":"rss","type":"object","base_type":"object","attributes":{"sourceId":"f06eb481-bd69-456e-b9b6-9ce2e0398513","uiTypeLabel":"Object","co_type_name":"FD65788fbb1e6390100109ca85ddd6d8d2","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"25337aa9-fbfd-4ee9-89b2-afbaeb1a40d5","uiType":"object","uiUniqueId":"25d5d68e-c257-4c35-8d5d-8a85278d86f7"}}]</label_cache>
+        <latest_snapshot>dc4618a5db331010e6cd1fc7689619db</latest_snapshot>
+        <master_snapshot>723b97bbdba39010e6cd1fc7689619c7</master_snapshot>
+        <name>BGS Earthquake Data Extraction</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:02:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cc9843fbdb639010e6cd1fc768961910</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>BGS Earthquake Data Extraction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name>sys_hub_flow_cc9843fbdb639010e6cd1fc768961910</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:29</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc9843fbdb639010e6cd1fc768961910"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cc9843fbdb639010e6cd1fc768961910"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=cc9843fbdb639010e6cd1fc768961910^sys_idNOT IN381a473fdb639010e6cd1fc768961905,411a473fdb639010e6cd1fc76896190d,b01a473fdb639010e6cd1fc768961903"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3c1a473fdb639010e6cd1fc768961904</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>381a473fdb639010e6cd1fc768961905</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:29</sys_updated_on>
+        <ui_id>8993a44d-ae14-4739-98b3-ba957667dfb8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=381a473fdb639010e6cd1fc768961905"/>
+    <sys_element_mapping action="delete_multiple" query="id=381a473fdb639010e6cd1fc768961905"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>381a473fdb639010e6cd1fc768961905</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>451a473fdb639010e6cd1fc768961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{22a16997-5559-4d29-8fa6-ee8fd7ae6a24.rss.channel.array_of_item}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</flow>
+        <order>3</order>
+        <parent_ui_id>8993a44d-ae14-4739-98b3-ba957667dfb8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>411a473fdb639010e6cd1fc76896190d</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-10-11 10:33:13</sys_updated_on>
+        <ui_id>9fa713bf-3bb7-4a62-935e-2fca3edb843a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=411a473fdb639010e6cd1fc76896190d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>411a473fdb639010e6cd1fc76896190d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>0d1a473fdb639010e6cd1fc76896190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:29</sys_updated_on>
+        <value>x_118939_bgs_earth_earthquakedata</value>
+        <variable display_value="">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=411a473fdb639010e6cd1fc76896190d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>411a473fdb639010e6cd1fc76896190d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>c51a473fdb639010e6cd1fc76896190e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 12:56:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>title={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.title}}^description={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.description}}^longitude={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.long}}^latitude={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.lat}}^link={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.link}}^published_date={{fd_transform:38ebe06a-d6fe-47e2-ad06-4a019ce5bec1}}^coalesce_fields=link</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>411a473fdb639010e6cd1fc76896190d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>891a473fdb639010e6cd1fc76896190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="BGS Earthquake Data REST Call">5d788fbbdb639010e6cd1fc7689619a7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>5d788fbbdb639010e6cd1fc7689619a7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>b01a473fdb639010e6cd1fc768961903</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-10-11 10:33:13</sys_updated_on>
+        <ui_id>22a16997-5559-4d29-8fa6-ee8fd7ae6a24</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b01a473fdb639010e6cd1fc768961903"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cc9843fbdb639010e6cd1fc768961910^sys_idNOT INc49843fbdb639010e6cd1fc768961911"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cc9843fbdb639010e6cd1fc768961910</id>
+        <name>BGS Earthquake Data Extraction</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:02:51</sys_created_on>
+        <sys_id>c49843fbdb639010e6cd1fc768961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:02:51</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_output action="delete_multiple" query="model=cc9843fbdb639010e6cd1fc768961910^sys_idNOT IN17485de8db735010e6cd1fc768961981,301a073fdb639010e6cd1fc7689619cb,301a073fdb639010e6cd1fc7689619d3,741a073fdb639010e6cd1fc7689619ad,781a073fdb639010e6cd1fc7689619b6,f41a073fdb639010e6cd1fc7689619e7"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=eb19dc78-9fb6-432e-b173-396cf1f78a1f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>published</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>Published</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</model>
+        <model_id>cc9843fbdb639010e6cd1fc768961910</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 12:47:49</sys_created_on>
+        <sys_id>17485de8db735010e6cd1fc768961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 12:47:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number,uiUniqueId=f4b1d3cc-4928-4894-826c-fbb3eb4493b0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>longitude</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label>Logitude</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</model>
+        <model_id>cc9843fbdb639010e6cd1fc768961910</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>301a073fdb639010e6cd1fc7689619cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number,uiUniqueId=73f1c213-6cb1-49fd-a7d0-a0637d5f2958</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>latitude</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label>Latitude</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</model>
+        <model_id>cc9843fbdb639010e6cd1fc768961910</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>301a073fdb639010e6cd1fc7689619d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1133571a-73d2-4c3f-a181-ffc200f55756</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>title</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Title</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</model>
+        <model_id>cc9843fbdb639010e6cd1fc768961910</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>741a073fdb639010e6cd1fc7689619ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ec2d246a-fb44-4c09-8200-9dbb48fc500a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>description</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Description</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</model>
+        <model_id>cc9843fbdb639010e6cd1fc768961910</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>781a073fdb639010e6cd1fc7689619b6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=url,uiTypeLabel=URL,uiUniqueId=9c04956c-9bb2-43fd-8393-d6dc6792abe8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>link</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="URL">url</internal_type>
+        <label>Link</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</model>
+        <model_id>cc9843fbdb639010e6cd1fc768961910</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>f41a073fdb639010e6cd1fc7689619e7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=cc9843fbdb639010e6cd1fc768961910^sys_idNOT IN411a473fdb639010e6cd1fc76896190d,b01a473fdb639010e6cd1fc768961903"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</flow>
+        <order>3</order>
+        <parent_ui_id>8993a44d-ae14-4739-98b3-ba957667dfb8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>411a473fdb639010e6cd1fc76896190d</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-10-11 10:33:13</sys_updated_on>
+        <ui_id>9fa713bf-3bb7-4a62-935e-2fca3edb843a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=411a473fdb639010e6cd1fc76896190d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>411a473fdb639010e6cd1fc76896190d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>0d1a473fdb639010e6cd1fc76896190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:29</sys_updated_on>
+        <value>x_118939_bgs_earth_earthquakedata</value>
+        <variable display_value="">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=411a473fdb639010e6cd1fc76896190d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>411a473fdb639010e6cd1fc76896190d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>c51a473fdb639010e6cd1fc76896190e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 12:56:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>title={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.title}}^description={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.description}}^longitude={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.long}}^latitude={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.lat}}^link={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.link}}^published_date={{fd_transform:38ebe06a-d6fe-47e2-ad06-4a019ce5bec1}}^coalesce_fields=link</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>411a473fdb639010e6cd1fc76896190d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>891a473fdb639010e6cd1fc76896190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=411a473fdb639010e6cd1fc76896190d^sys_idNOT IN25c4d928db735010e6cd1fc768961918"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>fields</input_name>
+        <instance>411a473fdb639010e6cd1fc76896190d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"published_date":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n/*var sec\u003dDate.parse(fd_data.trigger.current.published);\nvar gdt \u003d new GlideDateTime();\ngdt.setNumericValue(sec);\nreturn gdt.getDisplayValue();*/\ngs.log(fd_data.trigger.current);\nreturn;","savedValue":"{{8993a44d-ae14-4739-98b3-ba957667dfb8.item.pubDate}}"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 12:32:25</sys_created_on>
+        <sys_id>25c4d928db735010e6cd1fc768961918</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 12:56:40</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="BGS Earthquake Data REST Call">5d788fbbdb639010e6cd1fc7689619a7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>5d788fbbdb639010e6cd1fc7689619a7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>b01a473fdb639010e6cd1fc768961903</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-10-11 10:33:13</sys_updated_on>
+        <ui_id>22a16997-5559-4d29-8fa6-ee8fd7ae6a24</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b01a473fdb639010e6cd1fc768961903"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=cc9843fbdb639010e6cd1fc768961910^sys_idNOT IN381a473fdb639010e6cd1fc768961905"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3c1a473fdb639010e6cd1fc768961904</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>381a473fdb639010e6cd1fc768961905</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:29</sys_updated_on>
+        <ui_id>8993a44d-ae14-4739-98b3-ba957667dfb8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=381a473fdb639010e6cd1fc768961905"/>
+    <sys_element_mapping action="delete_multiple" query="id=381a473fdb639010e6cd1fc768961905"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>381a473fdb639010e6cd1fc768961905</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:29</sys_created_on>
+        <sys_id>451a473fdb639010e6cd1fc768961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{22a16997-5559-4d29-8fa6-ee8fd7ae6a24.rss.channel.array_of_item}}</value>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=cc9843fbdb639010e6cd1fc768961910^sys_idNOT INb16e51a0dbb35010e6cd1fc7689619fd,fd6e51a0dbb35010e6cd1fc7689619fc"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>cc9843fbdb639010e6cd1fc768961910</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>38ebe06a-d6fe-47e2-ad06-4a019ce5bec1</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 13:14:29</sys_created_on>
+        <sys_id>b16e51a0dbb35010e6cd1fc7689619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:29</sys_updated_on>
+        <transform_compositions>[{"id":"f036768cb7000010388487c2de11a993","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"date_format","label":"Input Date Format","order":0,"attributes":{},"value":"NULL_OVERRIDE","type":"choice","defaultValue":null,"typeLabel":null,"mandatory":true,"choices":[{"label":"-- None --","value":"","order":1},{"label":"Custom (enter below)","value":"NULL_OVERRIDE","order":2},{"label":"ISO Date (2004-06-28)","value":"yyyy-MM-dd","order":3},{"label":"ISO Date/Time (2004-06-28T17:34:10Z)","value":"yyyy-MM-dd'T'HH:mm:ss'Z'","order":4},{"label":"ServiceNow Date/Time (2004-06-28 17:34:10)","value":"yyyy-MM-dd HH:mm:ss","order":5},{"label":"EEE, MMM dd, yyyy (Mon, Jun 28, 2004)","value":"EEE, MMM dd, yyyy","order":6},{"label":"EEE, MMM dd, yyyy h:mm a (Mon, Jun 28, 2004 5:34 PM)","value":"EEE, MMM dd, yyyy h:mm a","order":7},{"label":"MM-dd-yyyy (06-28-2004)","value":"MM-dd-yyyy","order":8},{"label":"MM-dd-yyyy h:mm a (06-28-2004 5:34 PM)","value":"MM-dd-yyyy h:mm a","order":9},{"label":"MM-dd-yyyy HH:mm:ss (06-28-2004 17:34:10)","value":"MM-dd-yyyy HH:mm:ss","order":10},{"label":"MM/dd/yyyy (06/28/2004)","value":"MM/dd/yyyy","order":11},{"label":"MM/dd/yyyy h:mm a (06/28/2004 5:34 PM)","value":"MM/dd/yyyy h:mm a","order":12},{"label":"MM/dd/yyyy HH:mm:ss (06/28/2004 15:34:10)","value":"MM/dd/yyyy HH:mm:ss","order":13},{"label":"MMM dd, yyyy (Jun 28, 2004)","value":"MMM dd, yyyy","order":14},{"label":"MMM dd, yyyy h:mm a (Jun 28, 2004 5:34 PM)","value":"MMM dd, yyyy h:mm a","order":15},{"label":"yyyy-MM-dd h:mm a (2004-06-28 5:34 PM)","value":"yyyy-MM-dd h:mm a","order":16},{"label":"yyyy/MM/dd (2004/06/28)","value":"yyyy/MM/dd","order":17},{"label":"yyyy/MM/dd h:mm a (2004/06/28 5:34 PM)","value":"yyyy/MM/dd h:mm a","order":18},{"label":"yyyy/MM/dd HH:mm:ss (2004/06/28 17:34:10)","value":"yyyy/MM/dd HH:mm:ss","order":19}]},{"id":null,"name":"custom_format","label":"Custom Format","order":1,"attributes":{},"value":"EEE, dd MMM yyyy HH:mm:ss","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="string_to_date">d995728cb7000010388487c2de11a9d0</transform_definition_id>
+        <ui_id>35991378-a6f6-46a3-a8db-a67ad6915c4e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>cc9843fbdb639010e6cd1fc768961910</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8993a44d-ae14-4739-98b3-ba957667dfb8.item.pubDate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 13:14:29</sys_created_on>
+        <sys_id>fd6e51a0dbb35010e6cd1fc7689619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>38ebe06a-d6fe-47e2-ad06-4a019ce5bec1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910^sys_idNOT IN701a073fdb639010e6cd1fc7689619e6,701a073fdb639010e6cd1fc7689619ee,9f485de8db735010e6cd1fc768961985,b81a073fdb639010e6cd1fc7689619d1,f01a073fdb639010e6cd1fc7689619b5,f01a073fdb639010e6cd1fc7689619bd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>latitude</element>
+        <help/>
+        <hint/>
+        <label>Latitude</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>701a073fdb639010e6cd1fc7689619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>link</element>
+        <help/>
+        <hint/>
+        <label>Link</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>701a073fdb639010e6cd1fc7689619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>published</element>
+        <help/>
+        <hint/>
+        <label>Published</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 12:47:49</sys_created_on>
+        <sys_id>9f485de8db735010e6cd1fc768961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 12:47:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>longitude</element>
+        <help/>
+        <hint/>
+        <label>Logitude</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>b81a073fdb639010e6cd1fc7689619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <help/>
+        <hint/>
+        <label>Title</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>f01a073fdb639010e6cd1fc7689619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>description</element>
+        <help/>
+        <hint/>
+        <label>Description</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_cc9843fbdb639010e6cd1fc768961910</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:28</sys_created_on>
+        <sys_id>f01a073fdb639010e6cd1fc7689619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=cc9843fbdb639010e6cd1fc768961910^sys_idNOT IN1f3bd7bbdba39010e6cd1fc7689619c9"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"1f3bd7bbdba39010e6cd1fc7689619c9","name":"plan"}}</plan>
+        <plan_id display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</plan_id>
+        <snapshot>dc4618a5db331010e6cd1fc7689619db</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1f3bd7bbdba39010e6cd1fc7689619c9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:28</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>bgs_earthquake_data_extraction</internal_name>
+        <label_cache>[{"name":"22a16997-5559-4d29-8fa6-ee8fd7ae6a24.rss.channel.lastBuildDate","label":"1➛rss➛channel➛lastBuildDate","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.pubDate","label":"2➛item➛pubDate","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.link","label":"2➛item➛link","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.lat","label":"2➛item➛lat","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.long","label":"2➛item➛long","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.description","label":"2➛item➛description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item.title","label":"2➛item➛title","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"9fa713bf-3bb7-4a62-935e-2fca3edb843a.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9fa713bf-3bb7-4a62-935e-2fca3edb843a.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9fa713bf-3bb7-4a62-935e-2fca3edb843a.table_name","label":"3➛EarthquakeData Table","reference":"x_118939_bgs_earth_earthquakedata","reference_display":"EarthquakeData","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9fa713bf-3bb7-4a62-935e-2fca3edb843a.record","label":"3➛EarthquakeData Record","reference":"x_118939_bgs_earth_earthquakedata","reference_display":"EarthquakeData","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8993a44d-ae14-4739-98b3-ba957667dfb8.item","label":"2➛item","reference_display":"item","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"22a16997-5559-4d29-8fa6-ee8fd7ae6a24.rss.channel.array_of_item","label":"1➛rss➛channel➛array_of_item","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"22a16997-5559-4d29-8fa6-ee8fd7ae6a24.rss","label":"1➛rss","reference_display":"rss","type":"object","base_type":"object","attributes":{"sourceId":"f06eb481-bd69-456e-b9b6-9ce2e0398513","uiTypeLabel":"Object","co_type_name":"FD65788fbb1e6390100109ca85ddd6d8d2","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"25337aa9-fbfd-4ee9-89b2-afbaeb1a40d5","uiType":"object","uiUniqueId":"25d5d68e-c257-4c35-8d5d-8a85278d86f7"}}]</label_cache>
+        <master>true</master>
+        <name>BGS Earthquake Data Extraction</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="BGS Earthquake Data Extraction">cc9843fbdb639010e6cd1fc768961910</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>723b97bbdba39010e6cd1fc7689619c7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:27</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=723b97bbdba39010e6cd1fc7689619c7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=723b97bbdba39010e6cd1fc7689619c7"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=723b97bbdba39010e6cd1fc7689619c7^sys_idNOT IN073bd7bbdba39010e6cd1fc76896198b,433bd7bbdba39010e6cd1fc768961985,8b3bd7bbdba39010e6cd1fc768961968"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</flow>
+        <order>3</order>
+        <parent_ui_id>8993a44d-ae14-4739-98b3-ba957667dfb8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>073bd7bbdba39010e6cd1fc76896198b</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:27</sys_updated_on>
+        <ui_id>9fa713bf-3bb7-4a62-935e-2fca3edb843a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=073bd7bbdba39010e6cd1fc76896198b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>073bd7bbdba39010e6cd1fc76896198b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>0b3bd7bbdba39010e6cd1fc76896198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:27</sys_updated_on>
+        <value>x_118939_bgs_earth_earthquakedata</value>
+        <variable display_value="">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=073bd7bbdba39010e6cd1fc76896198b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>073bd7bbdba39010e6cd1fc76896198b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>c33bd7bbdba39010e6cd1fc76896198c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:10:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>title={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.title}}^description={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.description}}^longitude={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.long}}^latitude={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.lat}}^link={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.link}}^published_date={{fd_transform:38ebe06a-d6fe-47e2-ad06-4a019ce5bec1}}^coalesce_fields=link</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>073bd7bbdba39010e6cd1fc76896198b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>873bd7bbdba39010e6cd1fc76896198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="BGS Earthquake Data REST Call">5d788fbbdb639010e6cd1fc7689619a7</action_type>
+        <action_type_parent display_value="BGS Earthquake Data REST Call">39bf91a7db235010e6cd1fc76896193d</action_type_parent>
+        <comment/>
+        <compiled_snapshot>5d788fbbdb639010e6cd1fc7689619a7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>433bd7bbdba39010e6cd1fc768961985</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:27</sys_updated_on>
+        <ui_id>22a16997-5559-4d29-8fa6-ee8fd7ae6a24</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=433bd7bbdba39010e6cd1fc768961985"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3c1a473fdb639010e6cd1fc768961904</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>8b3bd7bbdba39010e6cd1fc768961968</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:27</sys_updated_on>
+        <ui_id>8993a44d-ae14-4739-98b3-ba957667dfb8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8b3bd7bbdba39010e6cd1fc768961968"/>
+    <sys_element_mapping action="delete_multiple" query="id=8b3bd7bbdba39010e6cd1fc768961968"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>8b3bd7bbdba39010e6cd1fc768961968</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>cf3bd7bbdba39010e6cd1fc76896196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{22a16997-5559-4d29-8fa6-ee8fd7ae6a24.rss.channel.array_of_item}}</value>
+    </sys_element_mapping>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=723b97bbdba39010e6cd1fc7689619c7^sys_idNOT IN7e3b97bbdba39010e6cd1fc7689619c7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>723b97bbdba39010e6cd1fc7689619c7</id>
+        <name>BGS Earthquake Data Extraction</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:25</sys_created_on>
+        <sys_id>7e3b97bbdba39010e6cd1fc7689619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_output action="delete_multiple" query="model=723b97bbdba39010e6cd1fc7689619c7^sys_idNOT IN033bd7bbdba39010e6cd1fc76896191f,36d8552cdb735010e6cd1fc7689619ef,763b97bbdba39010e6cd1fc7689619f5,7e3b97bbdba39010e6cd1fc7689619c9,be3b97bbdba39010e6cd1fc7689619e6,be3bd7bbdba39010e6cd1fc768961903"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=url,uiTypeLabel=URL,uiUniqueId=9c04956c-9bb2-43fd-8393-d6dc6792abe8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>link</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="URL">url</internal_type>
+        <label>Link</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</model>
+        <model_id>723b97bbdba39010e6cd1fc7689619c7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:26</sys_created_on>
+        <sys_id>033bd7bbdba39010e6cd1fc76896191f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=eb19dc78-9fb6-432e-b173-396cf1f78a1f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>published</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>Published</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</model>
+        <model_id>723b97bbdba39010e6cd1fc7689619c7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 12:50:15</sys_created_on>
+        <sys_id>36d8552cdb735010e6cd1fc7689619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 12:50:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number,uiUniqueId=f4b1d3cc-4928-4894-826c-fbb3eb4493b0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>longitude</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label>Logitude</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</model>
+        <model_id>723b97bbdba39010e6cd1fc7689619c7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:26</sys_created_on>
+        <sys_id>763b97bbdba39010e6cd1fc7689619f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1133571a-73d2-4c3f-a181-ffc200f55756</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>title</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Title</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</model>
+        <model_id>723b97bbdba39010e6cd1fc7689619c7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:25</sys_created_on>
+        <sys_id>7e3b97bbdba39010e6cd1fc7689619c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ec2d246a-fb44-4c09-8200-9dbb48fc500a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>description</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Description</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</model>
+        <model_id>723b97bbdba39010e6cd1fc7689619c7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:26</sys_created_on>
+        <sys_id>be3b97bbdba39010e6cd1fc7689619e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=float,uiTypeLabel=Floating Point Number,uiUniqueId=73f1c213-6cb1-49fd-a7d0-a0637d5f2958</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>latitude</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">float</internal_type>
+        <label>Latitude</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</model>
+        <model_id>723b97bbdba39010e6cd1fc7689619c7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:26</sys_created_on>
+        <sys_id>be3bd7bbdba39010e6cd1fc768961903</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=723b97bbdba39010e6cd1fc7689619c7^sys_idNOT IN073bd7bbdba39010e6cd1fc76896198b,433bd7bbdba39010e6cd1fc768961985"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</flow>
+        <order>3</order>
+        <parent_ui_id>8993a44d-ae14-4739-98b3-ba957667dfb8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>073bd7bbdba39010e6cd1fc76896198b</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:27</sys_updated_on>
+        <ui_id>9fa713bf-3bb7-4a62-935e-2fca3edb843a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=073bd7bbdba39010e6cd1fc76896198b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>073bd7bbdba39010e6cd1fc76896198b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>0b3bd7bbdba39010e6cd1fc76896198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:27</sys_updated_on>
+        <value>x_118939_bgs_earth_earthquakedata</value>
+        <variable display_value="">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=073bd7bbdba39010e6cd1fc76896198b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>073bd7bbdba39010e6cd1fc76896198b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>c33bd7bbdba39010e6cd1fc76896198c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:10:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>title={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.title}}^description={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.description}}^longitude={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.long}}^latitude={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.lat}}^link={{8993a44d-ae14-4739-98b3-ba957667dfb8.item.link}}^published_date={{fd_transform:38ebe06a-d6fe-47e2-ad06-4a019ce5bec1}}^coalesce_fields=link</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>073bd7bbdba39010e6cd1fc76896198b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>873bd7bbdba39010e6cd1fc76896198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=073bd7bbdba39010e6cd1fc76896198b^sys_idNOT INb2d8552cdb735010e6cd1fc7689619ff"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>fields</input_name>
+        <instance>073bd7bbdba39010e6cd1fc76896198b</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"published_date":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\n/*var sec\u003dDate.parse(fd_data.trigger.current.published);\nvar gdt \u003d new GlideDateTime();\ngdt.setNumericValue(sec);\nreturn gdt.getDisplayValue();*/\ngs.log(fd_data.trigger.current);\nreturn;","savedValue":"{{8993a44d-ae14-4739-98b3-ba957667dfb8.item.pubDate}}"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 12:50:15</sys_created_on>
+        <sys_id>b2d8552cdb735010e6cd1fc7689619ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:10:19</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="BGS Earthquake Data REST Call">5d788fbbdb639010e6cd1fc7689619a7</action_type>
+        <action_type_parent display_value="BGS Earthquake Data REST Call">39bf91a7db235010e6cd1fc76896193d</action_type_parent>
+        <comment/>
+        <compiled_snapshot>5d788fbbdb639010e6cd1fc7689619a7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>433bd7bbdba39010e6cd1fc768961985</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:27</sys_updated_on>
+        <ui_id>22a16997-5559-4d29-8fa6-ee8fd7ae6a24</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=433bd7bbdba39010e6cd1fc768961985"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=723b97bbdba39010e6cd1fc7689619c7^sys_idNOT IN8b3bd7bbdba39010e6cd1fc768961968"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3c1a473fdb639010e6cd1fc768961904</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BGS Earthquake Data Extraction">723b97bbdba39010e6cd1fc7689619c7</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>8b3bd7bbdba39010e6cd1fc768961968</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:27</sys_updated_on>
+        <ui_id>8993a44d-ae14-4739-98b3-ba957667dfb8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8b3bd7bbdba39010e6cd1fc768961968"/>
+    <sys_element_mapping action="delete_multiple" query="id=8b3bd7bbdba39010e6cd1fc768961968"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>8b3bd7bbdba39010e6cd1fc768961968</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:27</sys_created_on>
+        <sys_id>cf3bd7bbdba39010e6cd1fc76896196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{22a16997-5559-4d29-8fa6-ee8fd7ae6a24.rss.channel.array_of_item}}</value>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=723b97bbdba39010e6cd1fc7689619c7^sys_idNOT IN0d7d9d20dbb35010e6cd1fc7689619aa,785a996cdb735010e6cd1fc7689619ad,b05a996cdb735010e6cd1fc7689619ae,cd7d9d20dbb35010e6cd1fc7689619aa"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>723b97bbdba39010e6cd1fc7689619c7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8993a44d-ae14-4739-98b3-ba957667dfb8.item.pubDate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 13:10:20</sys_created_on>
+        <sys_id>0d7d9d20dbb35010e6cd1fc7689619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:10:20</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>38ebe06a-d6fe-47e2-ad06-4a019ce5bec1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>723b97bbdba39010e6cd1fc7689619c7</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8993a44d-ae14-4739-98b3-ba957667dfb8.item.pubDate}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 12:56:40</sys_created_on>
+        <sys_id>785a996cdb735010e6cd1fc7689619ad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:27</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>38ebe06a-d6fe-47e2-ad06-4a019ce5bec1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>723b97bbdba39010e6cd1fc7689619c7</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>38ebe06a-d6fe-47e2-ad06-4a019ce5bec1</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 12:56:40</sys_created_on>
+        <sys_id>b05a996cdb735010e6cd1fc7689619ae</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:14:27</sys_updated_on>
+        <transform_compositions>[{"id":"f036768cb7000010388487c2de11a993","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"date_format","label":"Input Date Format","order":0,"attributes":{},"value":"NULL_OVERRIDE","type":"choice","defaultValue":null,"typeLabel":null,"mandatory":true,"choices":[{"label":"-- None --","value":"","order":1},{"label":"Custom (enter below)","value":"NULL_OVERRIDE","order":2},{"label":"ISO Date (2004-06-28)","value":"yyyy-MM-dd","order":3},{"label":"ISO Date/Time (2004-06-28T17:34:10Z)","value":"yyyy-MM-dd'T'HH:mm:ss'Z'","order":4},{"label":"ServiceNow Date/Time (2004-06-28 17:34:10)","value":"yyyy-MM-dd HH:mm:ss","order":5},{"label":"EEE, MMM dd, yyyy (Mon, Jun 28, 2004)","value":"EEE, MMM dd, yyyy","order":6},{"label":"EEE, MMM dd, yyyy h:mm a (Mon, Jun 28, 2004 5:34 PM)","value":"EEE, MMM dd, yyyy h:mm a","order":7},{"label":"MM-dd-yyyy (06-28-2004)","value":"MM-dd-yyyy","order":8},{"label":"MM-dd-yyyy h:mm a (06-28-2004 5:34 PM)","value":"MM-dd-yyyy h:mm a","order":9},{"label":"MM-dd-yyyy HH:mm:ss (06-28-2004 17:34:10)","value":"MM-dd-yyyy HH:mm:ss","order":10},{"label":"MM/dd/yyyy (06/28/2004)","value":"MM/dd/yyyy","order":11},{"label":"MM/dd/yyyy h:mm a (06/28/2004 5:34 PM)","value":"MM/dd/yyyy h:mm a","order":12},{"label":"MM/dd/yyyy HH:mm:ss (06/28/2004 15:34:10)","value":"MM/dd/yyyy HH:mm:ss","order":13},{"label":"MMM dd, yyyy (Jun 28, 2004)","value":"MMM dd, yyyy","order":14},{"label":"MMM dd, yyyy h:mm a (Jun 28, 2004 5:34 PM)","value":"MMM dd, yyyy h:mm a","order":15},{"label":"yyyy-MM-dd h:mm a (2004-06-28 5:34 PM)","value":"yyyy-MM-dd h:mm a","order":16},{"label":"yyyy/MM/dd (2004/06/28)","value":"yyyy/MM/dd","order":17},{"label":"yyyy/MM/dd h:mm a (2004/06/28 5:34 PM)","value":"yyyy/MM/dd h:mm a","order":18},{"label":"yyyy/MM/dd HH:mm:ss (2004/06/28 17:34:10)","value":"yyyy/MM/dd HH:mm:ss","order":19}]},{"id":null,"name":"custom_format","label":"Custom Format","order":1,"attributes":{},"value":"EEE, dd MMM yyyy HH:mm:ss","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="string_to_date">d995728cb7000010388487c2de11a9d0</transform_definition_id>
+        <ui_id>35991378-a6f6-46a3-a8db-a67ad6915c4e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>723b97bbdba39010e6cd1fc7689619c7</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>38ebe06a-d6fe-47e2-ad06-4a019ce5bec1</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 13:10:20</sys_created_on>
+        <sys_id>cd7d9d20dbb35010e6cd1fc7689619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 13:10:20</sys_updated_on>
+        <transform_compositions>[{"id":"f036768cb7000010388487c2de11a993","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"date_format","label":"Input Date Format","order":0,"attributes":{},"value":"NULL_OVERRIDE","type":"choice","defaultValue":null,"typeLabel":null,"mandatory":true,"choices":[{"label":"-- None --","value":"","order":1},{"label":"Custom (enter below)","value":"NULL_OVERRIDE","order":2},{"label":"ISO Date (2004-06-28)","value":"yyyy-MM-dd","order":3},{"label":"ISO Date/Time (2004-06-28T17:34:10Z)","value":"yyyy-MM-dd'T'HH:mm:ss'Z'","order":4},{"label":"ServiceNow Date/Time (2004-06-28 17:34:10)","value":"yyyy-MM-dd HH:mm:ss","order":5},{"label":"EEE, MMM dd, yyyy (Mon, Jun 28, 2004)","value":"EEE, MMM dd, yyyy","order":6},{"label":"EEE, MMM dd, yyyy h:mm a (Mon, Jun 28, 2004 5:34 PM)","value":"EEE, MMM dd, yyyy h:mm a","order":7},{"label":"MM-dd-yyyy (06-28-2004)","value":"MM-dd-yyyy","order":8},{"label":"MM-dd-yyyy h:mm a (06-28-2004 5:34 PM)","value":"MM-dd-yyyy h:mm a","order":9},{"label":"MM-dd-yyyy HH:mm:ss (06-28-2004 17:34:10)","value":"MM-dd-yyyy HH:mm:ss","order":10},{"label":"MM/dd/yyyy (06/28/2004)","value":"MM/dd/yyyy","order":11},{"label":"MM/dd/yyyy h:mm a (06/28/2004 5:34 PM)","value":"MM/dd/yyyy h:mm a","order":12},{"label":"MM/dd/yyyy HH:mm:ss (06/28/2004 15:34:10)","value":"MM/dd/yyyy HH:mm:ss","order":13},{"label":"MMM dd, yyyy (Jun 28, 2004)","value":"MMM dd, yyyy","order":14},{"label":"MMM dd, yyyy h:mm a (Jun 28, 2004 5:34 PM)","value":"MMM dd, yyyy h:mm a","order":15},{"label":"yyyy-MM-dd h:mm a (2004-06-28 5:34 PM)","value":"yyyy-MM-dd h:mm a","order":16},{"label":"yyyy/MM/dd (2004/06/28)","value":"yyyy/MM/dd","order":17},{"label":"yyyy/MM/dd h:mm a (2004/06/28 5:34 PM)","value":"yyyy/MM/dd h:mm a","order":18},{"label":"yyyy/MM/dd HH:mm:ss (2004/06/28 17:34:10)","value":"yyyy/MM/dd HH:mm:ss","order":19}]},{"id":null,"name":"custom_format","label":"Custom Format","order":1,"attributes":{},"value":"EEE, dd MMM yyyy hh:mm:ss","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="string_to_date">d995728cb7000010388487c2de11a9d0</transform_definition_id>
+        <ui_id>35991378-a6f6-46a3-a8db-a67ad6915c4e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7^sys_idNOT IN363b97bbdba39010e6cd1fc7689619f1,7e3b97bbdba39010e6cd1fc7689619e2,7e3b97bbdba39010e6cd1fc7689619ff,8b3bd7bbdba39010e6cd1fc768961942,b2d8552cdb735010e6cd1fc7689619f5,cf3bd7bbdba39010e6cd1fc76896191a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>description</element>
+        <help/>
+        <hint/>
+        <label>Description</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:26</sys_created_on>
+        <sys_id>363b97bbdba39010e6cd1fc7689619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <help/>
+        <hint/>
+        <label>Title</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:26</sys_created_on>
+        <sys_id>7e3b97bbdba39010e6cd1fc7689619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>longitude</element>
+        <help/>
+        <hint/>
+        <label>Logitude</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:26</sys_created_on>
+        <sys_id>7e3b97bbdba39010e6cd1fc7689619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>link</element>
+        <help/>
+        <hint/>
+        <label>Link</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:26</sys_created_on>
+        <sys_id>8b3bd7bbdba39010e6cd1fc768961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>published</element>
+        <help/>
+        <hint/>
+        <label>Published</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 12:50:15</sys_created_on>
+        <sys_id>b2d8552cdb735010e6cd1fc7689619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-08 12:50:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>latitude</element>
+        <help/>
+        <hint/>
+        <label>Latitude</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_723b97bbdba39010e6cd1fc7689619c7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:24:26</sys_created_on>
+        <sys_id>cf3bd7bbdba39010e6cd1fc76896191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 14:24:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

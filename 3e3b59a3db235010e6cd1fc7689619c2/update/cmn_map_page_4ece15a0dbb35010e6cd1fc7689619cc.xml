@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Isle of Man</center_address>
+        <center_latitude>54.236107</center_latitude>
+        <center_longitude>-4.548056</center_longitude>
+        <controls_size>large</controls_size>
+        <disable_map_controls/>
+        <disable_nav_bar>false</disable_nav_bar>
+        <filter/>
+        <initial_zoom>6</initial_zoom>
+        <name>x_118939_bgs_earth_BGS Earthquake Map_24</name>
+        <overview>true</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <roles/>
+        <script><![CDATA[var gr = new GlideRecord("x_118939_bgs_earth_earthquakedata");
+
+gr.addEncodedQuery('published_dateONYesterday@javascript:gs.beginningOfYesterday()@javascript:gs.endOfYesterday()');
+gr.query();
+while(gr.next()){
+	var item = map.addItem(gr);
+	item.latitude = gr.getValue("latitude");
+	item.longitude = gr.getValue("longitude");
+	item.icon_width = "12";
+	item.icon_height = "12";
+}]]></script>
+        <show_device_location>false</show_device_location>
+        <suffix>BGS Earthquake Map_24Hr</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-08 13:16:08</sys_created_on>
+        <sys_id>4ece15a0dbb35010e6cd1fc7689619cc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_118939_bgs_earth_BGS Earthquake Map_24</sys_name>
+        <sys_package display_value="BGS Earthquakes" source="x_118939_bgs_earth">3e3b59a3db235010e6cd1fc7689619c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BGS Earthquakes">3e3b59a3db235010e6cd1fc7689619c2</sys_scope>
+        <sys_update_name>cmn_map_page_4ece15a0dbb35010e6cd1fc7689619cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-11 10:35:58</sys_updated_on>
+        <type>terrain</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>false</use_advanced_configuration>
+    </cmn_map_page>
+</record_update>
